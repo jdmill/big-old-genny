@@ -34,6 +34,7 @@ function generatePassword() {
 
     //checks to see that password conditions are met
     if (number >= 8 && number <= 128 && (capChars || lowChars || numbs || spec)) {
+        password = "";
       //creates random number and retrieves value from charList. iterates desired number of times to create password of desired length
       for (var i = 0; i < number; i++){
         //Random number init

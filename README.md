@@ -14,3 +14,4 @@ https://jdmill.github.io/big-old-genny/
 
 The only issue encounter in the development of this solution of this problem was a scoping issue. I did not realize it before, but var is a global variable. After some trial and error I debugged and made a modification to the code.
 
+![gen-screencap](https://user-images.githubusercontent.com/9371206/160044545-087b62d1-6c6c-43d2-8fdf-b3180783b506.png)
